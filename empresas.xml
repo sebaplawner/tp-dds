@@ -1,0 +1,21 @@
+<empresas>
+    <empresa nombre="Facebook">
+        <periodo valor="2017">
+            <cuenta id="EBITDA">10</cuenta>
+            <cuenta id="FDS">20</cuenta>
+            <cuenta id="FreeCashFlow">30</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesDiscontinuas">40</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesContinuas">50</cuenta>
+        </periodo>
+    </empresa>
+
+    <empresa nombre="Coca-Cola">
+        <periodo valor="2017">
+            <cuenta id="EBITDA">20</cuenta>
+            <cuenta id="FDS">30</cuenta>
+            <cuenta id="FreeCashFlow">40</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesDiscontinuas">50</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesContinuas">60</cuenta>
+        </periodo>
+    </empresa>
+</empresas>

@@ -1,0 +1,43 @@
+<configuracion>
+
+    <cuentas>
+        <cuenta>EBITDA</cuenta>
+        <cuenta>FDS</cuenta>
+        <cuenta>FreeCashFlow</cuenta>
+        <cuenta>IngresoNetoEnOperacionesDiscontinuas</cuenta>
+        <cuenta>IngresoNetoEnOperacionesContinuas</cuenta>
+    </cuentas>
+
+    <indicadores>
+        <indicador id="IngresoNeto">
+            <primaria>
+                <cuenta>IngresoNetoEnOperacionesContinuas</cuenta>
+                <operacion>+</operacion>
+                <cuenta>IngresoNetoEnOperacionesDiscontinuas</cuenta>
+            </primaria>
+        </indicador>
+        <indicador id="RetornoSobreCapitalTotal">
+            <primaria>
+                <primaria>
+                    <cuenta>IngresoNeto</cuenta>
+                    <operacion>-</operacion>
+                    <cuenta>Dividendos</cuenta>
+                </primaria>
+                <operacion>/</operacion>
+                <cuenta>CapitalTotal</cuenta>
+            </primaria>
+        </indicador>
+    </indicadores>
+
+    <metodologias>
+        <metodologia titulo="WarrenBuffet">
+            <condicion descripcion="Maximizar ROE">
+                <indicador>RetornoSobreCapitalTotal</indicador>
+                <condicion>Mayor</condicion>
+                <argumento></argumento>
+                <duracion>5</duracion>
+            </condicion>
+        </metodologia>
+    </metodologias>
+
+</configuracion>
