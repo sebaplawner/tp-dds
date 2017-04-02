@@ -1,6 +1,55 @@
+<?xml version="1.0"?>
 <empresas>
     <empresa nombre="Facebook">
-        <periodo valor="2017">
+        <periodo valor="2017-1C">
+            <cuenta id="EBITDA">10</cuenta>
+            <cuenta id="FDS">20</cuenta>
+            <cuenta id="FreeCashFlow">30</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesDiscontinuas">40</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesContinuas">50</cuenta>
+        </periodo>
+
+        <periodo valor="2016-2C">
+            <cuenta id="EBITDA">10</cuenta>
+            <cuenta id="FDS">20</cuenta>
+            <cuenta id="FreeCashFlow">30</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesDiscontinuas">40</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesContinuas">50</cuenta>
+        </periodo>
+
+        <periodo valor="2016-2C">
+            <cuenta id="EBITDA">10</cuenta>
+            <cuenta id="FDS">20</cuenta>
+            <cuenta id="FreeCashFlow">30</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesDiscontinuas">40</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesContinuas">50</cuenta>
+        </periodo>
+
+        <periodo valor="2016-2C">
+            <cuenta id="EBITDA">10</cuenta>
+            <cuenta id="FDS">20</cuenta>
+            <cuenta id="FreeCashFlow">30</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesDiscontinuas">40</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesContinuas">50</cuenta>
+        </periodo>
+
+        <periodo valor="2016-2C">
+            <cuenta id="EBITDA">10</cuenta>
+            <cuenta id="FDS">20</cuenta>
+            <cuenta id="FreeCashFlow">30</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesDiscontinuas">40</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesContinuas">50</cuenta>
+        </periodo>
+
+        <periodo valor="2016-2C">
+            <cuenta id="EBITDA">10</cuenta>
+            <cuenta id="FDS">20</cuenta>
+            <cuenta id="FreeCashFlow">30</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesDiscontinuas">40</cuenta>
+            <cuenta id="IngresoNetoEnOperacionesContinuas">50</cuenta>
+        </periodo>
+
+        <periodo valor="2016-2C">
             <cuenta id="EBITDA">10</cuenta>
             <cuenta id="FDS">20</cuenta>
             <cuenta id="FreeCashFlow">30</cuenta>
